@@ -6,12 +6,13 @@ class GirdViewItem extends StatelessWidget {
   final String img;
   final Color color;
   final VoidCallback onTap;
-  const GirdViewItem(
-      {super.key,
-      required this.title,
-      required this.img,
-      required this.color,
-      required this.onTap});
+  const GirdViewItem({
+    super.key,
+    required this.title,
+    required this.img,
+    required this.color,
+    required this.onTap,
+  });
 
   @override
   Widget build(BuildContext context) {

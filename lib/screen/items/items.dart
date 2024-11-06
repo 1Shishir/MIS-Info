@@ -28,7 +28,7 @@ class Items extends StatelessWidget {
             ),
           ]),
       child: ListTile(
-        title: Text(name),
+        title: Text(name,style: const TextStyle(fontWeight: FontWeight.bold),),
         subtitle: Text(designation),
       ),
     );

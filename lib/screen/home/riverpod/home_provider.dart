@@ -7,7 +7,7 @@ part 'home_provider.g.dart';
  List<GridViewItemModel> homeItem (HomeItemRef ref) {
   return [
       GridViewItemModel(
-          title: "Teacher Info", img: "assets/images/faculty_info.svg"),
+          title: "Teacher Info",img: "assets/images/faculty_info.svg"),
       GridViewItemModel(title: "Batches", img: "assets/images/batches.svg"),
       GridViewItemModel(
           title: "Staff Info", img: "assets/images/staff_info.svg"),
