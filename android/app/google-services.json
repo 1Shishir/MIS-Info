@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "117034783001",
+    "firebase_url": "https://mis-info-431ae-default-rtdb.firebaseio.com",
+    "project_id": "mis-info-431ae",
+    "storage_bucket": "mis-info-431ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117034783001:android:041da2e58b0f6222537588",
+        "android_client_info": {
+          "package_name": "com.example.mis_info"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdA0oY_Svrduw1ILXZGqtsdzyCAH2S2rU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
