@@ -8,7 +8,6 @@ import 'package:path_provider/path_provider.dart';
 class PdfViewerFromAsset extends StatefulWidget {
   final String pdfUrl;
   final String title;
-
   const PdfViewerFromAsset({
     super.key,
     required this.pdfUrl,
@@ -16,7 +15,7 @@ class PdfViewerFromAsset extends StatefulWidget {
   });
 
   @override
-  _PdfViewerFromAssetState createState() => _PdfViewerFromAssetState();
+  State<PdfViewerFromAsset> createState() => _PdfViewerFromAssetState();
 }
 
 class _PdfViewerFromAssetState extends State<PdfViewerFromAsset> {
